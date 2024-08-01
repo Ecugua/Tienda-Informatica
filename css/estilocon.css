@@ -1,0 +1,98 @@
+/* estiloCon.css */
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,  
+   0, 0, 0.3);
+  }
+  
+h1{
+    font-family:  Arial, Helvetica, sans-serif;
+    color: rgb(255, 1, 73);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    font-size: 50px;
+    background-color: rgb(0, 255, 255);
+    display: inline-block;
+    width: 350px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #f49a00;
+    border-radius: 150px;
+    /*-webkit-background-clip: text;*/
+    /*-webkit-text-fill-color: beige;*/
+}
+  
+  form {
+    display: flex;
+    flex-direction: column;  
+  
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius:  
+   3px;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .producto{
+    /*border-color: blue;*/
+      border-collapse: collapse;
+      width: 100%;
+  }
+  .producto tr{
+    background-color: #8e37d6b7;
+    /*background-color: #f2f2f2;*/
+  }
+  .producto td:hover{
+    background-color: #09299164;
+    /*background-color: #f2f2f2;*/
+  }
+  .producto th,td{
+    font-family: arial;
+    font-size: 20px;
+      border: 3px solid rgba(58, 219, 247, 0.866);
+      padding: 8px; /*ancho de la celda td*/
+      text-align: 1; 
+      /*background-color:  grey;*/ 
+  }
+  .compra{
+    background-image: url("/img/carrito.png");
+    background-size: cover;
+    background-color:rgb(5, 248, 191);
+    border-radius: 100px;
+    width: 80px;
+    height: 80px;
+    vertical-align: middle;
+    cursor: pointer;
+    
+}
+
+.producto td{
+    font-family:  tecno4;
+    font-size: 20px;
+    color: rgb(5, 248, 191);
+}
