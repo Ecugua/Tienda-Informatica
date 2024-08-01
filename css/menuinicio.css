@@ -1,0 +1,63 @@
+.fondo {
+	background-image:url('/img/fondo.jpeg');
+	background-size: cover;
+	/*background-color: grey;*/
+}
+.tituloprincipal{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: tecno1;
+    color: rgb(255, 1, 73);
+    text-shadow: -5px 5px 10px rgb(255, 153, 0);
+    font-size: 80px;
+    background: rgb(58, 219, 247); 
+    background-size: 25px;
+    width: 850px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(244, 154, 0);
+    border-radius: 150px;
+}
+.btninicio{
+    background-image: url("/img/petabytech.jpeg");
+    background-size: cover;
+    border-radius: 100px;
+    border-style: solid;
+    border-color: rgb(244, 154, 0);
+    border-width: 5px;
+    width: 200px;
+    height: 200px;
+    vertical-align: middle;
+    cursor: pointer;
+    
+}
+
+.tabla{
+    width: 100%;
+    border-collapse: separate;
+}
+/*estilo tabla menu*/
+.tabla td {
+    background-color: #f49a00; /* Color de fondo verde */
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none; /*cambiar decoracion sin lineas de hypervinculo*/
+    border-radius: 15px; /* Esquinas redondeadas */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    border-style: solid;
+    border-color: aqua;
+
+  }
+  
+  .tabla td:hover {
+    background-color: #03abffb6; /* Color de fondo más oscuro al pasar el ratón */
+  }
+
+  .tabla a {
+      font-family: tecno4;
+      font-size: 50px;
+      color: rgb(255, 1, 73);
+      text-shadow: 1px 1px 1px rgb(58, 219, 247);
+      text-decoration: none;
+    } 
